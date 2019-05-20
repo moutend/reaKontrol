@@ -153,6 +153,12 @@ class NiMidiSurface: public BaseSurface {
 			case CMD_REDO:
 				Main_OnCommand(40030, 0); // Edit: Redo
 				break;
+			case CMD_QUANTIZE :
+				// Do nothing.
+				break;
+			case CMD_QUANTIZE :
+				// Do nothing.
+				break;
 			case CMD_NAV_TRACKS:
 				// Value is -1 or 1.
 				Main_OnCommand(value == 1 ?
